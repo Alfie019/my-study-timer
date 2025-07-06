@@ -2,7 +2,7 @@ import {useState, useEffect, useCallback } from 'react';
 
 // Constants for timer duration in seconds
 
-const WORK_DURATION = 0.1 * 60; // 25 minutes
+const WORK_DURATION = 20 * 60; // 25 minutes
 const SHORT_BREAK_DURATION = 5 * 60; // 5 minutes
 const LONG_BREAK_DURATION = 15 * 60; // 15 Minutes
 const SESSIONS_UNTIL_LONG_BREAK = 4;
